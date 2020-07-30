@@ -2,7 +2,7 @@ Moodle WebService Get Roles (wsgetroles)
 ====================================================
 
 This local plugin allows you to get moodles roles via REST API. There is no possibility to get role ids directly via rest api, 
-there are two core-function demanding for role id: core_role_assign_roles and core_role_unassign_roles.
+though there are two core functions demanding for role id: core_role_assign_roles and core_role_unassign_roles.
 
 The function local_wsgetroles_get_roles is added to the rest api. You can give over lists of roleids, rolenames and/or roleshortnames and get the associated roleinformations (id, name, shortname, description, sortorder, archetype). If the given id, name, shortname has no corresponding role, roleinfomations will be "Null" despite of the search entry. 
 If you give over empty lists all roles will be returned.
