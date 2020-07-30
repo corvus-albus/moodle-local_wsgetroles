@@ -25,7 +25,7 @@ No configuration needed, just install the plugin. Keep in mind to add the functi
 
 Usage
 -----
-Use functions over Rest API. Have a look at python sample code at https://github.com/corvus-albus/corvus-albus-moodle-local_wsgetroles-script-examples.
+Use functions over Rest API.
 
 Requirements
 ------------
