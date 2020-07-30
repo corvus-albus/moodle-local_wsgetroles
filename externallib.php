@@ -70,8 +70,8 @@ class local_wsgetroles_external extends external_api {
      * This function returns roleid, rolename and roleshortname for all roles or for given roles.
      *
      * @param array $ids List of roleids.
-     * @param array $names List of role names.
      * @param array $shortnames List of role shortnames.
+     * @param array $names List of role names.
      * @return array Array of arrays with role informations.
      */
     public static function get_roles($ids = [], $shortnames = [], $names = []) {
