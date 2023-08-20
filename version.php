@@ -26,6 +26,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_wsgetroles';
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = 'v0.9.0.1';
+$plugin->release   = 'v0.9.0.2';
 $plugin->requires  = 2017051500;
 $plugin->version   = 2023042402;
